@@ -1,0 +1,23 @@
+.options {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  margin: 20px auto;
+}
+
+.button,
+.reset {
+  padding: 10px 20px;
+  text-transform: capitalize;
+  background-color: #e7e9fc;
+  border: 0.5px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover,
+.reset:hover {
+  outline: none;
+  background-color: #8e8f99;
+  transition: background-color 0.3s;
+}
